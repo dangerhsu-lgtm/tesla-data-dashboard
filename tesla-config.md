@@ -167,5 +167,25 @@ curl -H "Authorization: Bearer $TESLA_AUTH_TOKEN" \
       -X POST \
       -i https://fleet-api.prd.cn.vn.cloud.tesla.cn/api/1/vehicles/fleet_telemetry_config
 ```
+### ca
+```
+tesla-data.dannyhsu.org.crt
+```
+### interval_seconds
+```
+5
+```
+### hostname
+```
+tesla-data.dannyhsu.org
+```
+### port
+```
+443
+```
+### alert_types
+```
+service, customer, service-fix
+```
 
-
+https://tesla.com/_ak/key.dannyhsu.org
